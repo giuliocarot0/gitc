@@ -3,21 +3,21 @@ package gitc
 type MessageType int
 
 const (
-	MSG0  MessageType = iota
-	MSG1  MessageType = iota
-	MSG2  MessageType = iota
-	MSG3  MessageType = iota
-	MSG4  MessageType = iota
-	MSG5  MessageType = iota
-	MSG6  MessageType = iota
-	MSG7  MessageType = iota
-	MSG8  MessageType = iota
-	MSG9  MessageType = iota
-	MSG10 MessageType = iota
-	MSG11 MessageType = iota
-	MSG12 MessageType = iota
-	MSG13 MessageType = iota
-	MSG14 MessageType = iota
+	MSG0 MessageType = iota
+	MSG1
+	MSG2
+	MSG3
+	MSG4
+	MSG5
+	MSG6
+	MSG7
+	MSG8
+	MSG9
+	MSG10
+	MSG11
+	MSG12
+	MSG13
+	MSG14
 )
 
 type Message struct {

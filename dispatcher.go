@@ -46,6 +46,7 @@ func (d *Dispatcher) Send(from, to string, Msgtype MessageType, payload interfac
 		From:    from,
 		To:      to,
 		Payload: payload,
+		Type:    Msgtype,
 	}
 
 	receiver.Mailbox <- msg
